@@ -1,0 +1,262 @@
+
+a {
+
+    text-decoration: none;
+}
+
+#idName{
+    /*ändrar stilen på texten*/
+    font-style: italic;
+    /*ändrar storleken på texten*/
+    font-size:30px;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    /*ändrar färg på texten*/
+    color: rgb(255, 255, 255);
+    
+}
+.headingBig{
+    /*ändrar stilen på texten*/
+    font-style: italic;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+     /*ändrar storleken på texten*/
+    font-size: 50px;
+    /*ändrar färg på texten*/
+    color: rgb(255, 255, 255)
+    
+                      
+}
+.Button{
+/*ändrar färg på texten*/
+color: rgb(255, 255, 255);
+/*ändrar bakgrundsfärgen i knappen*/
+background-color: rgba(199, 138, 97, 0.747);
+/*ändrar formen på ramen */
+border-radius: 10px;
+display:block;
+/*gör så att knappen hamnar i mitten automatiskt*/
+margin: auto;
+ /*ändrar storleken på texten*/
+font-size: 15px;
+/*ändrar stilen på ramen*/
+border-style: solid;
+/*ändrar färg på ramen*/
+border-color: rgb(255, 255, 255);
+/*ändrar stilen på texten*/
+font-style: italic;
+/*anpassar mellanrummet från knappen till nästa objekt i koden neråt*/
+margin-bottom: 20px;
+padding: .4rem 1rem;
+}
+.Button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .1);
+    
+    
+}
+
+
+
+
+
+.fact1{
+    
+    /*ändrar färg på texten*/
+    color: #ffffff;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    /*lägger till en ram och anger storlek, färg och stil*/
+    border: 5px double rgb(255, 255, 255);
+    /*ändrar formen på ramen*/
+    border-radius: 5px;
+    /**/
+    margin:5px auto;
+    /*anger bredd på ramen*/
+    width: 35%;
+    
+    
+    
+
+}
+.fact2{
+    /*ändrar färg på texten*/
+    color: #ffffff;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    /*lägger till en ram och anger storlek, färg och stil*/
+    border: 5px double rgb(255, 255, 255);
+    /*ändrar formen på ramen*/
+    border-radius: 5px;
+    /**/
+    margin:5px auto;
+    /*anger bredd på ramen*/
+    width: 35%;
+}
+.fact3{
+    /*ändrar färg på texten*/
+    color: #ffffff;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    /*lägger till en ram och anger storlek, färg och stil*/
+    border: 5px double rgb(255, 255, 255);
+    /*ändrar formen på ramen*/
+    border-radius: 5px;
+    /**/
+    margin:5px auto;
+    /*anger bredd på ramen*/
+    width: 35%;
+    
+}
+#idWord{
+    /*ändrar färg på texten*/
+    color: rgb(255, 255, 255);
+     /*ändrar storleken på texten*/
+    font-size: 25px;    
+    /*ändrar stilen på texten*/
+    font-style:italic;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.goTo{
+     /*ändrar storleken på texten*/
+    font-size: 20px;
+    /*ändrar stilen på texten*/
+    font-style: italic;
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    /*ändrar färg på texten*/
+    color: rgb(255, 255, 255);
+    /*anger mellanrummet upp ifrån objektet*/
+    margin-top:7%;
+    
+    
+    
+}
+
+#short{
+    /*gör så att texten hamnar i mitten*/
+    text-align: center;
+    /*lägger till en ram och anger storlek och stil*/
+    border: 5px double;
+    /*anger formen på ramen*/
+    border-radius: 5px;
+    /*ändrar formens bredd*/
+    width: 40%;
+    /*anpassar text så den hamnar i mitten av hemsidan*/
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+       
+}
+
+body {
+    background: url(/images/background.jpg) no-repeat center center / cover;
+    
+  }
+div {
+    /*ändrar färg på texten*/
+    color: white;
+}
+.link{
+    /*ändrar färg på texten*/
+    color:white;
+}
+footer{
+    /*gör så att texten hamnar i mitten*/
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.center {
+
+    display: block;
+    /* anpassar positionen mellan de olika objekten */
+    margin-left: auto;
+    margin-right: auto;
+    /* ändrar bredd */
+    width: 15%;
+}
+
+
+
+  
+  .image{
+    /*lägger till en ram och anger storlek, färg och stil*/
+    border: 5px solid white;
+    /*ändrar form på ramen*/
+    border-radius: 5px;
+    /*anpassar positionen så ramen hamnar i mitten*/
+    margin: auto;
+  }
+  .imageRow{
+    margin-top: 5rem;
+    display:flex;
+    /*för så att alla bilder hamnar centrerade*/
+    align-items: center;
+    /*anpassar mellanrummet upp ner och till sidan*/
+    font-size: 15px;
+
+
+  }
+
+
+
+  
+  .link1{
+      /*ändrar färg på texten*/
+   color:white;
+    /*ändrar storleken på texten*/
+    font-size: 15px;
+   
+  }
+ 
+ .menu{
+
+    display: flex;
+    /*sätter så meny raden hamnar i mitten*/
+    justify-content: center;
+    /*skapar en övre ram samt anger storlek, färg och stil*/
+    border-top: 2px solid rgb(255, 255, 255);
+    /*anger tjocklek på ramen*/
+    padding: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+ }
+ .topLinks{
+/*ändrar färg på texten*/
+color: rgb(255, 255, 255);
+/*ändrar formen på ramen*/
+border-radius: 5px;
+display:block;
+ /*ändrar storleken på texten*/
+font-size: 25px;
+/*anger stil på ramen*/
+border-style: solid;
+
+border-color: rgb(255, 255, 255);
+/*ändrar stilen på texten*/
+font-style: italic;
+
+margin-left: 20px;
+/*bredd på ramen*/
+width: 150px;
+/*gör så att texten hamnar i mitten*/
+text-align: center;
+padding: 0.5rem 0;
+
+
+ }
+ 
+ 
+ .profile-pic{
+  width: 150px;
+  display: block;
+  margin: 40px auto;
+  border-radius: 100px;
+  border: 2px white solid;
+  box-shadow: black 50px;
+  
+ }
