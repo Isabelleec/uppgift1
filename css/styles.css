@@ -1,6 +1,6 @@
 
 a {
-
+    /*tar bort linjen under länkar*/
     text-decoration: none;
 }
 
@@ -47,10 +47,13 @@ border-color: rgb(255, 255, 255);
 font-style: italic;
 /*anpassar mellanrummet från knappen till nästa objekt i koden neråt*/
 margin-bottom: 20px;
+/*ändrar positionen mellan texten och ramen*/
 padding: .4rem 1rem;
 }
 .Button:hover{
+    /*lägger till en hand när man håller på knappen*/
     cursor: pointer;
+    /*ändrar färg på knappen när man håller på den*/
     background-color: rgba(255, 255, 255, .1);
     
     
@@ -146,13 +149,17 @@ padding: .4rem 1rem;
     width: 40%;
     /*anpassar text så den hamnar i mitten av hemsidan*/
     margin: auto;
+    /*gör utrymmet större ovanför texten*/
     margin-top: 1rem;
+    /*skapar mer utrymme i ramen*/
     padding: 0.5rem;
+    /*anpassar mellanrummet mellan raderna*/
     line-height: 1.5rem;
        
 }
 
 body {
+    /*lägger till bakgrundsbild till hela hemsidan*/
     background: url(/images/background.jpg) no-repeat center center / cover;
     
   }
@@ -167,7 +174,9 @@ div {
 footer{
     /*gör så att texten hamnar i mitten*/
     margin-top: 2rem;
+    /*gör så att länkarna hamnar i mitten av sidan*/
     text-align: center;
+    /*gör länkarna understrukna*/
     text-decoration:underline;
 }
 
@@ -193,6 +202,7 @@ footer{
     margin: auto;
   }
   .imageRow{
+      /*ändrar utrymmet ovanför bilderna*/
     margin-top: 5rem;
     display:flex;
     /*för så att alla bilder hamnar centrerade*/
@@ -223,6 +233,7 @@ footer{
     border-top: 2px solid rgb(255, 255, 255);
     /*anger tjocklek på ramen*/
     padding: 20px;
+    /*skapar en nedre ram samt anger storlek, färg och stil*/
     border-bottom: 2px solid rgb(255, 255, 255);
  }
  .topLinks{
@@ -235,16 +246,16 @@ display:block;
 font-size: 25px;
 /*anger stil på ramen*/
 border-style: solid;
-
+/*anger färg på ramen*/
 border-color: rgb(255, 255, 255);
 /*ändrar stilen på texten*/
 font-style: italic;
-
 margin-left: 20px;
 /*bredd på ramen*/
 width: 150px;
 /*gör så att texten hamnar i mitten*/
 text-align: center;
+/*ändrar utrymmet mellan texten och ramen*/
 padding: 0.5rem 0;
 
 
@@ -252,11 +263,13 @@ padding: 0.5rem 0;
  
  
  .profile-pic{
+/*ändrar bredd på bilden*/
   width: 150px;
   display: block;
+/*ändrar utrymmet runt om bilden*/
   margin: 40px auto;
+  /*ändrar formen på ramen*/
   border-radius: 100px;
+  /*bestämmer ramens form, färg och storlek*/
   border: 2px white solid;
-  box-shadow: black 50px;
-  
  }
