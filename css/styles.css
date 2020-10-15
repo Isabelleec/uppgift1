@@ -49,6 +49,8 @@ font-style: italic;
 margin-bottom: 20px;
 /*ändrar positionen mellan texten och ramen*/
 padding: .4rem 1rem;
+/*positionen anpassar sig till de ändringar vi gör*/
+position: relative;
 }
 .Button:hover{
     /*lägger till en hand när man håller på knappen*/
@@ -155,6 +157,8 @@ padding: .4rem 1rem;
     padding: 0.5rem;
     /*anpassar mellanrummet mellan raderna*/
     line-height: 1.5rem;
+    /*positionen anpassar sig till de ändringar vi gör*/
+    position: relative;
        
 }
 
@@ -209,6 +213,7 @@ footer{
     align-items: center;
     /*anpassar mellanrummet upp ner och till sidan*/
     font-size: 15px;
+    
 
 
   }
