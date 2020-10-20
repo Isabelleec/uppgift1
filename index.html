@@ -12,13 +12,24 @@
  <body>
  <!--Header, namn på hemsidan-->
  <h1 class ="headingBig">Isabelle Schneider</h1> 
- <!--Rubrik till min presentation-->
+ <div class="navbar">
+  <a href="/index.html">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">About me
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/test.html">Portfolio</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+ 
 
- <!--Menyval som består av länkar till bla. mitt portfolio-->
- <div class ="menu">
- <a href="/test.html" class="topLinks">Portfolio</a>
- <a href="/index.html" class="topLinks">Homepage</a>
- </div>
+ 
+ 
  <!--lägger in bild på mig som en profilbild-->
  <img src="/images/isabelle.jpg" alt="error" class="profile-pic">
 
@@ -58,15 +69,8 @@
 
 </form>
 
-<!--Nedan bifogar jag flera bilder att hamna bredvid varandra. Bestämmer deras höjd och bredd. -->
-<div class="imageRow">
 
-<img src="images/helsingborg.jpg"alt ="bild ej tillgänglig" width=150px height=100px class="image">
-<img src="images/cat.jpg"alt ="bild ej tillgänglig" width=100px height=100px class="image">
-<img src="images/yoda.jpg"alt ="bild ej tillgänglig" width=130px height=100px class="image" >
-<img src="images/friends.jpg"alt ="bild ej tillgänglig" width=130px height=100px class="image">
-<img src="images/Sweden.jpg"alt ="bild ej tillgänglig" width=130px height=100px class="image">
-</div>
+
 
 <!--lägger till länkar som alltid hamnar längst ner på hemsidan. -->
 <footer>

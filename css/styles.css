@@ -1,4 +1,9 @@
+*{
 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 a {
     /*tar bort linjen under länkar*/
     text-decoration: none;
@@ -23,7 +28,9 @@ a {
      /*ändrar storleken på texten*/
     font-size: 50px;
     /*ändrar färg på texten*/
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    margin: 2rem 0;
+    
     
                       
 }
@@ -56,15 +63,8 @@ position: relative;
     /*lägger till en hand när man håller på knappen*/
     cursor: pointer;
     /*ändrar färg på knappen när man håller på den*/
-    background-color: rgba(255, 255, 255, .1);
-    
-    
+    background-color: rgba(255, 255, 255, .1);    
 }
-
-
-
-
-
 .fact1{
     
     /*ändrar färg på texten*/
@@ -148,7 +148,7 @@ position: relative;
     /*anger formen på ramen*/
     border-radius: 5px;
     /*ändrar formens bredd*/
-    width: 40%;
+
     /*anpassar text så den hamnar i mitten av hemsidan*/
     margin: auto;
     /*gör utrymmet större ovanför texten*/
@@ -159,12 +159,14 @@ position: relative;
     line-height: 1.5rem;
     /*positionen anpassar sig till de ändringar vi gör*/
     position: relative;
+    width: 60%;
        
 }
 
 body {
     /*lägger till bakgrundsbild till hela hemsidan*/
     background: url(/images/background.jpg) no-repeat center center / cover;
+    
     
   }
 div {
@@ -177,7 +179,7 @@ div {
 }
 footer{
     /*gör så att texten hamnar i mitten*/
-    margin-top: 2rem;
+    margin-top: 15rem;
     /*gör så att länkarna hamnar i mitten av sidan*/
     text-align: center;
     /*gör länkarna understrukna*/
@@ -192,35 +194,7 @@ footer{
     margin-right: auto;
     /* ändrar bredd */
     width: 15%;
-}
-
-
-
-  
-  .image{
-    /*lägger till en ram och anger storlek, färg och stil*/
-    border: 5px solid white;
-    /*ändrar form på ramen*/
-    border-radius: 5px;
-    /*anpassar positionen så ramen hamnar i mitten*/
-    margin: auto;
-  }
-  .imageRow{
-      /*ändrar utrymmet ovanför bilderna*/
-    margin-top: 5rem;
-    display:flex;
-    /*för så att alla bilder hamnar centrerade*/
-    align-items: center;
-    /*anpassar mellanrummet upp ner och till sidan*/
-    font-size: 15px;
-    
-
-
-  }
-
-
-
-  
+} 
   .link1{
       /*ändrar färg på texten*/
    color:white;
@@ -229,18 +203,7 @@ footer{
    
   }
  
- .menu{
-
-    display: flex;
-    /*sätter så meny raden hamnar i mitten*/
-    justify-content: center;
-    /*skapar en övre ram samt anger storlek, färg och stil*/
-    border-top: 2px solid rgb(255, 255, 255);
-    /*anger tjocklek på ramen*/
-    padding: 20px;
-    /*skapar en nedre ram samt anger storlek, färg och stil*/
-    border-bottom: 2px solid rgb(255, 255, 255);
- }
+ 
  .topLinks{
 /*ändrar färg på texten*/
 color: rgb(255, 255, 255);
@@ -278,3 +241,175 @@ padding: 0.5rem 0;
   /*bestämmer ramens form, färg och storlek*/
   border: 2px white solid;
  }
+
+ 
+  .port{
+
+    margin-left: 15%;
+   
+  }
+  /* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(223, 171, 137);
+    font-family: Arial;
+    margin: 0 auto;
+    
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(184, 181, 181);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(223, 171, 137);
+    z-index: 1;
+    font-style: italic;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(187, 187, 187);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .erfarenheter{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 30px;
+    font-style: italic;
+
+
+  }
+.student-box-container{
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10rem;
+  
+}
+
+.student-cards-column {
+  height: 20rem;
+  position: relative;
+  border-radius: .5rem;
+  box-shadow: 0 4px 8px 4px rgba(17,22,26,.16);
+  padding: 0 1.25rem;
+  background-color:  rgba(235, 180, 144, 0.568);
+  border-top: solid .1875rem rgba(255, 255, 255, 0.562)
+}
+.student-cards-column img { 
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  top: -5rem;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.student-box-text { 
+  position: relative;
+  top: -3rem;
+}
+
+.student-cards-column h3 {
+  color: #ffffff;
+  padding-bottom: 1rem;
+ 
+}
+
+.student-cards-column p {
+  font-style: italic;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+
+
+
+
+
+  /*mobil anpassat*/
+  @media only screen and (max-width: 375px){
+
+    body {
+        width: 100%;
+    }
+    #short{
+       max-width: 70%;
+    }
+    
+    .column{
+
+        max-width: 32%;
+        height: 50rem;
+        font-size: 15px;
+    }
+    .port{
+
+        height: 100px;
+    }
+    .student-box-container{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 8rem;
+      justify-content: center;
+      margin: 8rem auto;
+     
+      
+    }
+    
+  
+
+  }
