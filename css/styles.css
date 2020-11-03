@@ -163,10 +163,14 @@ position: relative;
     width: 60%;
        
 }
-    html{
-      background: url(/images/background.jpg) no-repeat center center fixed; 
-    
-    }
+html { 
+  background-color: rgba(17,22,26,.16);
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
     
 div {
     /*ändrar färg på texten*/
@@ -386,37 +390,43 @@ padding: 0.5rem 0;
 
 
   /*mobil anpassat*/
-  @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 430px){
 
     body {
-        width: 100%;
-        min-width: 375px;
-    }
-    #short{
-       max-width: 70%;
-    }
-    
-    .column{
+      width: 100%;
+      min-width: 375px;
+  }
+  #short{
+     max-width: 70%;
+  }
+  
+  .column{
 
-        max-width: 32%;
-        height: 50rem;
-        font-size: 15px;
-    }
-    .port{
+      max-width: 32%;
+      height: 50rem;
+      font-size: 15px;
+  }
+  .port{
 
-        height: 100px;
-    }
-    .portfolio-box{
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      row-gap: 8rem;
-      justify-content: center;
-      margin: 8rem auto;
-      
-      
-    }
+      height: 100px;
+  }
+  .portfolio-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8rem;
+    justify-content: center;
+    margin: 8rem auto;
     
+    
+  }
+  html{
+    background: url(/images/background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
   
 
   }
